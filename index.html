@@ -23,7 +23,7 @@
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top " >
-    <a class="navbar-brand" href="#">Portfolio</a>
+    <a class="navbar-brand" href="#carouselExampleCaptions">My Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,16 +33,28 @@
                 <a class="nav-link" href="#section1">About Me <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section2">My Projects</a>
+                <a class="nav-link" href="#section2">Education</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section3">Work Experience</a>
+                <a class="nav-link" href="#section3">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section4">Skills</a>
+                <a class="nav-link" href="#section4">Work Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section5">Section 5</a>
+                <a class="nav-link" href="#section5">Skills</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#section6">References</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#section7">Hobbies</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#section8">Contacts</a>
             </li>
         </ul>
     </div>
@@ -252,8 +264,8 @@
                         accuracy. As the project lead and developer, successfully integrated diverse technologies
                          into a user-friendly web platform, enabling healthcare professionals to predict and 
                          manage cardiovascular diseases officiently.
-                        QR
-                        Scan the QR code to visit my online Github Repository.                        
+                        </br>
+                        <a href="https://github.com/AichaMbongo/134141.git" target="_blank">View project on GitHub</a>                      
                     </div>
               
             </div>
@@ -261,48 +273,90 @@
     </div>
   
     <div class="row g-2 ">
-        <div class="col-md-3 mb-4 ">
+       
+          <div class="col-md-3 mb-4">
+            <div class="card p-1 bg-dark text-white shadow-lg">
+              <img src="src/images/SUAttachment.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">
+                  I spearheaded a project to enhance Strathmore's student attachment portal.
+                  <span id="dots-1">...</span>
+                  <span id="more-1" style="display: none;">
+                    I played a pivotal role in defining the system requirements and implementing improvements.
+                    Utilizing the Trello project management tool, I efficiently mapped out the entire project trajectory.
+                  </span>
+                  <a id="readMoreBtn-1" onclick="toggleText(1)" class="text-primary">Read More</a> </br>
+                  <a href="https://trello.com/b/N3XfIbUK/su-attachment-project" target="_blank">Click to View Trello Board</a>
 
-           
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 mb-4">
+            <div class="card p-1 bg-dark text-white shadow-lg">
+              <img src="src/images/Rpubs.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">
+                  I led a Data science project, focusing on exploratory data analysis, 
+                  <span id="dots-2">...</span>
+                  <span id="more-2" style="display: none;">
+                    preprocessing, model training, and hyper-parameter tuning.
+                    The project involved loading datasets, performing statistical analysis, creating visualizations,
+                    and applying various data transformations. Additionally, I trained and evaluated multiple models,
+                    conducted hyper-parameter tuning using a "Random Search," and implemented ensemble methods like Bagged CART.
+                    The final consolidation included the development of a Plumber API and PHP output for effective model deployment.
+                  </span>
+                  <a id="readMoreBtn-2" onclick="toggleText(2)" class="text-primary">Read More</a> </br>
+                  <a href="https://rpubs.com/aicha/1121209" target="_blank">Click to View project on Rpubs</a>
 
-            <div class="card p-1 bg-dark text-white shadow-lg">
-                <img src="src/images/SUAttachment.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+                </p>
+              </div>
             </div>
-        </div>
-        <div class="col-md-3 mb-4" >
+          </div>
+          
+          <div class="col-md-3 mb-4">
             <div class="card p-1 bg-dark text-white shadow-lg">
-                <img src="src/images/Rpubs.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+              <img src="src/images/FreshFields.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">
+                  Fresh Fields marked one of my initial projects, serving as an ecommerce 
+                  <span id="dots-3">...</span>
+                  <span id="more-3" style="display: none;">
+                    platform designed specifically for rural farmers. Developed using PHP and HTML, the web platform utilized a MariaDB (SQL database) to meet its objectives.
+                  </span>
+                  <a id="readMoreBtn-3" onclick="toggleText(3)" class="text-primary">Read More</a></br>
+                  <a href="https://drive.google.com/file/d/14eX_GrhM7tnbB3_j7OT9YTUp59wZbzAO/view?pli=1" target="_blank">Click to View project Demo</a>
+                </p>
+              </div>
             </div>
-        </div>
-        <div class="col-md-3 mb-4">
+          </div>
+          
+          <div class="col-md-3 mb-4">
             <div class="card p-1 bg-dark text-white shadow-lg">
-                <img src="src/images/FreshFields.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+              <img src="src/images/advert.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">
+                  I conducted an eMarketing initiative for "Just For You Studio," a salon based in the Strathmore 
+                  <span id="dots-4">...</span>
+                  <span id="more-4" style="display: none;">
+                    University student center. The project focused on enhancing visibility, driving sales, and fostering customer retention.
+                    My responsibilities included designing a website prototype and creating salon advertisements using multimedia tools like
+                    Adobe, Canva, and CapCut.
+                  </span>
+                  <a id="readMoreBtn-4" onclick="toggleText(4)" class="text-primary">Read More</a> </br>
+                  <a href="https://youtu.be/hcVOaD_S39c" target="_blank">Click to Watch Advert</a>
+
+                </p>
+              </div>
             </div>
-        </div>
-        <div class="col-md-3 mb-4">
-            <div class="card p-1 bg-dark text-white shadow-lg">
-                <img src="src/images/advert.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-        </div>
+          </div>
     </div>
 </section>
 
   <!-- Section 5 -->
-  <section id="section4" class="container mt-4 bg-light col-md-12">
+  <section id="section5" class="container mt-4 bg-light col-md-12 mb-4 ">
 
-  <!-- <section id="section4" class="container mt-4"> -->
 
         <div class="container mt-4 bg-transparent  col-md-12 mb-4">
       <h2 class="text-center mb-4">My Skills</h2>
@@ -357,7 +411,7 @@
           </div>
 
           <!-- AWS -->
-          <div class="col-md-12 mt-4">
+          <div class="col-md-12 mt-4 mb-4">
             <h5>AWS</h5>
             <div class="progress" role="progressbar" aria-label="AWS" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar progress-bar-striped bg-secondary" style="width: 50%">50%</div>
@@ -382,10 +436,10 @@
             </div>
           </div>
           <!-- JavaScript -->
-          <div class="col-md-12 mt-4">
+          <div class="col-md-12 mt-4 mb-4">
             <h5>JavaScript</h5>
             <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped bg-warning" style="width: 80%">80%</div>
+              <div class="progress-bar progress-bar-striped bg-warning " style="width: 80%">80%</div>
             </div>
           </div>
         
@@ -444,30 +498,52 @@
 <section id="section7" class="container mt-4 bg-light col-md-12">
     <h2  class="text-center  mb-4">My Hobbies</h2>
 
-
-    <div class="card mb-4 rounded col-md-12  mb-4 bg-light  shadow-lg " >
-        <div class="row g-0 ">
-            <div class="col-md-2 rounded">
-                <img src="src/images/clock.jpg" class="img-fluid rounded" alt="...">
+    <div class="card mb-4 rounded bg-light shadow-lg">
+        <div class="row g-0">
+            <div class="col-md-2 position-relative">
+                <img src="src/images/oldClock.jpg" class="img-fluid rounded" alt="Before restoration" onclick="openModal('beforeModal')">
+                <div class="overlay-text">
+                    <span class="text-muted">Before Restoration</span>
+                </div>
             </div>
-            <div class="col-md-10">
-                <div class="card-body " >
-                    <h5 class="card-title">CV-Detect (cardiovascular disease prediction System )</h5>
+            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Restoration Crafts</h5>
                     <p class="card-text">
-                       
+                        Embark on the journey of reviving forgotten treasures. Witness the magic as I breathe new life into 
+                        this vintage wall clock, turning it into a timeless piece of art. #RestorationCrafts #VintageRevival #TimelessBeauty </br>
+                        <a href="https://www.linkedin.com/posts/aicha-myriam-mbongo-zindamoyen-3ab1a9263_restorationcrafts-newbeginnings-goodbye2023-activity-7147511727985778688-XOHe?utm_source=share&utm_medium=member_desktop" target="_blank">Click to watch Restoration process</a>
 
-                        Developed a Cardiovascular Disease Prediction System, 
-                        leveraging Python, Django, and machine learning algorithms for enhanced diagnostic 
-                        accuracy. As the project lead and developer, successfully integrated diverse technologies
-                         into a user-friendly web platform, enabling healthcare professionals to predict and 
-                         manage cardiovascular diseases officiently.
-                        QR
-                        Scan the QR code to visit my online Github Repository.                        
-                    </div>
-              
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2 position-relative">
+                <img src="src/images/clock.jpg" class="img-fluid rounded" alt="After restoration" onclick="openModal('afterModal')">
+                <div class="overlay-text">
+                    <span class="text-muted">After Restoration</span>
+                </div>
             </div>
         </div>
     </div>
+    
+    <!-- Modals
+    <div id="beforeModal" class="modal-sm">
+        <span class="close" onclick="closeModal('beforeModal')">&times;</span>
+        <img class="modal-content" src="src/images/clock.jpg" alt="Before restoration">
+        <div id="caption" class="caption">Before Restoration</div>
+    </div>
+    
+    <div id="afterModal" class="modal-sm">
+        <span class="close" onclick="closeModal('afterModal')">&times;</span>
+        <img class="modal-content" src="src/images/clock.jpg" alt="After restoration">
+        <div id="caption" class="caption">After Restoration</div>
+    </div> -->
+    
+   
+    
+      
+   
+
   
     <div class="row g-2 ">
         <div class="col-md-3 mb-4 ">
@@ -477,31 +553,69 @@
             <div class="card p-1 bg-light  shadow-lg">
                 <img src="src/images/chorale4.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Music is my heart's language, and singing is my way
+                        <span id="dots-6">...</span>
+                        <span id="more-6" style="display: none;">  of sharing joy. My hobby has led me to perform at graduations, 
+                            seminars, and even on <a href="https://fb.watch/pmqgL-GdCt/" target="_blank">Look Up TV station</a>! 🎤✨ Each note is a chance to connect, inspire, and spread 
+                            positive vibes. Join me on this melodic journey! #SingingPassion
+                        </span>
+                        <a id="readMoreBtn-6" onclick="toggleText(6)" class="text-primary">Read More</a><br>
+                
+                        <a href="https://vm.tiktok.com/ZM65BNcBD/" target="_blank">View my Music covers</a>
+                    </p>
                 </div>
+                
             </div>
         </div>
         <div class="col-md-3 mb-4" >
             <div class="card p-1 bg-light  shadow-lg">
-                <img src="src/images/food.png" class="card-img-top" alt="...">
+                <img src="src/images/food.png" class="card-img-top" alt="Food">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">I love cooking African dishes! From tasty 
+                        <span id="dots-6">...</span>
+                        <span id="more-6" style="display: none;">  stews to flavorful spices, my kitchen is a place where 
+                            I bring the authentic flavors of Africa to life. Let's explore the delicious world of African 
+                            cuisine together! 🍲✨ #AfricanCooking #FlavorfulJourney #CulinaryAdventure #CookingPassion #HomeChef                       
+                        </span>
+                        <a id="readMoreBtn-6" onclick="toggleText(6)" class="text-primary">Read More</a><br>
+
+                        <a href="https://pin.it/7du1jTK" target="_blank">View my top Dishes</a>
+
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-md-3 mb-4">
-            <div class="card p-1 bg-light  shadow-lg">
-                <img src="src/images/paint.png" class="card-img-top" alt="...">
+            <div class="card p-1 bg-light shadow-lg">
+                <img src="src/images/paint.png" class="card-img-top" alt="Painting">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">
+                        Painting sparks my soul, and watercolors are my
+                        <span id="dots-6">...</span>
+                        <span id="more-6" style="display: none;">  captivating canvas                       
+                        </span>
+                        <a id="readMoreBtn-6" onclick="toggleText(6)" class="text-primary">Read More</a><br>
+
+                        <a href="https://pin.it/7du1jTK" target="_blank">View my Artwork </a>
+                    </p>
                 </div>
             </div>
-        </div>
+        </div>        
         <div class="col-md-3 mb-4">
-            <div class="card p-1 bg-light  shadow-lg">
+            <div class="card p-1 bg-light shadow-lg">
                 <img src="src/images/book.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">
+                        Book branding is my creative haven. Crafting 
+                        <span id="dots-5">...</span>
+                        <span id="more-5" style="display: none;"> 
+                            unique book covers that resonate with each narrative,I turn ideas into visual art,
+                        making every book a captivating journey.</span>
+                    
+                    <a id="readMoreBtn-5" onclick="toggleText(5)" class="text-primary">Read More</a></br>
+               
+                             <a href="https://vm.tiktok.com/ZM65rEVXH/" target="_blank">View the branding process</a>
+                            </p>
                 </div>
             </div>
         </div>
@@ -509,7 +623,7 @@
 </section>
 
 
-<section id="section1" class="container mt-4 mb-4 bg-dark col-md-12">
+<section id="section8" class="container mt-4 mb-4 bg-dark col-md-12">
     <h2 class="text-center mb-4 text-white ">Reach Out to me</h2>
 
     <div class="row g-0">
@@ -595,6 +709,35 @@
       });
     });
   </script>
+
+<script>
+    function toggleText(cardId) {
+      var dots = document.getElementById("dots-" + cardId);
+      var moreText = document.getElementById("more-" + cardId);
+      var btnText = document.getElementById("readMoreBtn-" + cardId);
+  
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read More";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read Less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
+  
 
 </body>
 </html>
